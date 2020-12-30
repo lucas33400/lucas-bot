@@ -1,0 +1,27 @@
+{
+    "token": "NzkzNDY4NDU0Njk4NjE0Nzg1.X-stFQ.nyd8VE9xL4dUxeJpd8DoZNZm47k",
+    "prefix": "!",
+    "greeting": {
+        "channel": "740147508013170738",
+        "channel1": "740211685196955740",
+        "role": ""
+    },
+    "reactionRole": {
+        "789458972398059541": {
+            "emojis": [{
+                "name": "✅",
+                "roles": "789449459368329247"
+            }]
+        }
+    },
+    "ticket": {
+        "category": "793628055981391922",
+        "roles": []
+    },
+"serverStats" :  {
+    "humans" :  "793634112685998122",
+    "bots" :  "793634154016669756",
+    "total" :  "793634201681133598"
+    },
+    "logs": "740212533738078279"
+}

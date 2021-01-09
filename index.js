@@ -6,7 +6,7 @@ const Discord = require('discord.js'),
     config = require('./config.json'),
     fs = require('fs')
  
-client.login(config.token)
+client.login(process.env.HEROKU_TOKEN)
 client.commands = new Discord.Collection()
 client.db = require('./db.json')
  

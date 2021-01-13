@@ -38,10 +38,11 @@ client.on('guildMemberAdd', member => {
         Le clan 1 est pour les joueurs qui tapes le **cauchemar** tout les jours et si tu souhaite progresser avec nous vers **l'ultra cauchemar**
         
         Le clan 2 est pour les joueurs qui tapes le **brutal **ou le **cauchemar**
+
+        Le clan 3 est pour les joueurs qui tapes le **difficile** et le **brutal**
         
         Et pour finir le clan 4 qui est réservé aux petits joueurs qui tapes le **facile, normal et difficile**
         
-        Nous avons un projet pour un 4ème clan  mais sa reste entre toi et moi ! 🤫 
         
         Le discord est à ta disposition si tu as besoins d'aide notre équipe d'helpeurs et la ainsi que toute la communauté.
         

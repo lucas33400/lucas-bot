@@ -37,7 +37,7 @@ client.on('guildMemberAdd', member => {
 
         Le clan 1 est pour les joueurs qui tapes le **cauchemar** tout les jours et si tu souhaite progresser avec nous vers **l'ultra cauchemar**
         
-        Le clan 2 est pour les joueurs qui tapes le **brutal **ou le **cauchemar**
+        Le clan 2 est pour les joueurs qui tapes le **cauchemar**
 
         Le clan 3 est pour les joueurs qui tapes le **difficile** et le **brutal**
         

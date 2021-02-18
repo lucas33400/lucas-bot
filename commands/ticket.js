@@ -7,7 +7,7 @@ module.exports = {
         if (Object.values(client.db.tickets).some(ticket => ticket.author === message.author.id)) return message.channel.send('Vous avez déjà un ticket d\'ouvert.')
         const channel = await message.guild.channels.create(`ticket ${message.author.username}`, {
             type: 'text',
-            parent: config.ticket.category,
+            parent: config.ticket,
             permissionOverwrites: [{
                 id: message.guild.id,
                 deny: 'VIEW_CHANNEL'

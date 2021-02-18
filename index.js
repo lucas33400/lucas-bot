@@ -35,7 +35,7 @@ client.on('guildMemberAdd', member => {
     member.guild.channels.cache.get(config.greeting.channel).send(`${member}`, new Discord.MessageEmbed()
         .setDescription(`${member} Je te demande d'abord d'accepter le règlement pour pouvoir accéder aux autres chanel.
 
-        Le clan 1 est pour les joueurs qui tapes **l'ultra cauchemar** d'ici le 6 février
+        Le clan 1 est pour les joueurs qui tapes **l'ultra cauchemar**
         
         Le clan 2 est pour les joueurs qui tapes le **cauchemar**
 
@@ -102,3 +102,17 @@ client.on('channelCreate', channel => {
         ADD_REACTIONS: false
     })
 })
+
+const promise1 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('foo');
+  }, 300);
+});
+
+promise1.then((value) => {
+  console.log(value);
+  // expected output: "foo"
+});
+
+console.log(promise1);
+// expected output: [object Promise]

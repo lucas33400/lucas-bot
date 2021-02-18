@@ -5,8 +5,7 @@ const config = require('../config.json'),
 module.exports = {
     run: async (message, args, client) => {
         if (Object.values(client.db.tickets).some(ticket => ticket.author === message.author.id)) return message.channel.send('Vous avez déjà un ticket d\'ouvert.')
-        const channel = await message.guild.channels.create(`ticket ${message.author.username}`, 
-             const { size } = await message.channel.bulkDelete(Number(count) + 1, true) {
+        const channel = await message.guild.channels.create(`ticket ${message.author.username}`, {
             type: 'text',
             parent: config.ticket,
             permissionOverwrites: [{

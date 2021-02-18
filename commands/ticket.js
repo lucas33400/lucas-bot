@@ -5,7 +5,7 @@ const config = require('../config.json'),
 module.exports = {
     run: async (message, args, client) => {
         if (Object.values(client.db.tickets).some(ticket => ticket.author === message.author.id)) return message.channel.send('Vous avez déjà un ticket d\'ouvert.')
-        const channel = await message.guild.channels.create(`ticket ${message.author.username}`, {.then(sent => sent.delete({timeout: 5e3}))
+        const channel = await message.guild.channels.create(`ticket ${message.author.username}`, .then(sent => sent.delete({timeout: 5e3})){
             type: 'text',
             parent: config.ticket,
             permissionOverwrites: [{
